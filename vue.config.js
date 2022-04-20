@@ -1,7 +1,7 @@
 module.exports = {
-  publicPath: '/andcc/',
+
   transpileDependencies: [
     'vuetify'
   ],
-
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/'
 }
