@@ -1,7 +1,7 @@
 module.exports = {
-  publicPath: '/andcc/',  
+  publicPath: '/andcc/',
   transpileDependencies: [
     'vuetify'
   ],
-  
+
 }
